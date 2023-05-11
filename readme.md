@@ -11,7 +11,7 @@ Complete the following steps on the categorical columns in the dataset:
 - Check for null values in all the columns
 - Create a new empty list called `drop_list`. We will append to this list a set of columns to be droped later. Add the following columns to this:
     - `OSOURCE` - symbol definitions not provided, too many categories
-    - `ZIP CODE` - we are including state already
+    - `ZIP` - we are including state already
 - Identify columns that over 85% missing values and add them to the previous list.
 - Remove the columns included in the `drop_list` from the dataframe
 - Now, reduce the number of categories in the column `GENDER`. The column should only have either "M" for males, "F" for females, and "other" for all the rest
